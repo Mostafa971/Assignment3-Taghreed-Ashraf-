@@ -1,0 +1,551 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+/*   Start Section 1 ( Home )  */
+#home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+#home .navbar .logo-navbar {
+  float: left;
+}
+
+#home .navbar .logo-navbar img {
+  width: 200px;
+  padding: 20px 0  0 60px;
+}
+
+#home .navbar .links-navbar {
+  float: right;
+  margin-right: 50px;
+}
+
+#home .navbar .links-navbar ul {
+  list-style-type: none;
+}
+
+#home .navbar .links-navbar ul li {
+  float: left;
+  padding: 40px 20px;
+  font-size: 18px;
+}
+
+#home .navbar .links-navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#home .info{
+  color: #fff;
+  text-align: center;
+}
+
+#home .info h3 {
+  padding-top: 120px;
+  padding-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#home .info h1 {
+  padding-bottom: 15px;
+  font-family: 'Alegreya', serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+#home .info p {
+  padding-bottom: 15px;
+  line-height: 1.8;
+  font-family: 'Alegreya', serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#home .info button {
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+#home .info .btn-1 {
+  background-color: #8E7754;
+  border: none;
+  padding: 14px;
+  margin-right: 3px;
+}
+
+#home .info .btn-2 {
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 12px;
+  margin-left: 3px;
+}
+
+/*  ------------- End Section 1 ( Home ) ---------------- */
+
+/*   Start Section 2  (About)  */
+
+
+#about .about-img {
+  float: left;
+  width: 40%;
+}
+
+#about  .about-info {
+  float: left;
+  width: 60%;
+}
+
+#about .about-img img {
+  width: 100%;
+  padding: 80px 0 70px 70px;
+}
+
+#about .about-info h2 {
+  padding: 130px 0 20px 160px;
+  color: #303030;
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#about .about-info .space {
+  padding-bottom: 20px;
+  line-height: 2;
+}
+
+#about .about-info p {
+  padding-left:160px;
+  padding-bottom: 15px;
+  color: #747272;
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+}
+
+
+/*------- Icons Font Awesome-------- */
+#about .about-info .text {
+  display: inline-block;
+  padding-left: 5px;
+  color: #747272;
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+}
+
+#about .about-info .icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border: rgb(155, 152, 152) solid 1px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 10px 0 10px 160px;
+}
+
+#about .about-info .icon a {
+  color: #8E7754;
+  font-size: 20px;
+}
+
+#about .about-info .icon a i{
+  line-height: 40px;
+}
+
+/*--------------   End Section 2  (About)---------------  */
+
+/*   Start Section 3  (our-offer)  */
+#our-offer {
+  background-color: #f8f8f8;
+}
+
+#our-offer .our-offer-info {
+  float: left;
+  width: 50%;
+}
+
+#our-offer .our-offer-info h2 {
+  padding-top: 160px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  color: #303030;
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#our-offer .our-offer-info p {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  line-height: 2;
+  color: #747272;
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+}
+
+#our-offer .our-offer-img {
+  float: left;
+  width: 50%;
+}
+
+#our-offer .our-offer-img img {
+  width: 85%;
+  padding-top: 90px;
+  padding-left: 30px;
+  padding-bottom: 70px;
+}
+/*  ---------- End Section 3  (our-offer) ----------- */
+
+
+/*  Start Section 4 (gallery)   */
+
+#gallery h2 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #303030;
+  font-family: 'Alegreya', serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#gallery .content {
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 50px;
+}
+
+#gallery .sub-gallery1,
+#gallery .sub-gallery2,
+#gallery .sub-gallery3 {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+}
+
+#gallery .sub-gallery1 img {
+  padding-left: 90px;
+  width: 80%;
+}
+
+#gallery .sub-gallery2 img {
+  width: 80%;
+}
+
+#gallery .sub-gallery3 img {
+  padding-right: 80px;
+  width: 80%;
+}
+
+#gallery .sub-gallery1 h4,
+#gallery .sub-gallery2 h4,
+#gallery .sub-gallery3 h4 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: "Alegreya";
+  font-size: 22px;
+  color: #303030;
+  font-weight: 400;
+  font-family: 'Alegreya', serif;
+}
+
+#gallery .sub-gallery1 p,
+#gallery .sub-gallery2 p,
+#gallery .sub-gallery3 p {
+  padding-bottom: 80px;
+  line-height: 1.8;
+  color: #888;
+  font-size: 17px;
+  font-family: 'Alegreya', serif;
+}
+
+
+/*-----------End Section 4 (gallery)----------*/
+
+
+/*---Start Section 5  (Blog)--*/
+
+#blog {
+  background-color: #f8f8f8;
+}
+
+#blog .blog-info {
+  float: left;
+  width: 50%;
+}
+
+#blog .blog-info h2 {
+  padding: 120px 0 30px 70px;
+  font-weight: 400;
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+}
+
+#blog .blog-info .content {
+  padding-left: 70px;
+  padding-bottom: 20px;
+  line-height: 1.9;
+  color: #888;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Alegreya', serif;
+}
+
+#blog .blog-info h3 {
+  padding-left: 70px;
+  padding-bottom: 15px;
+  color: #888;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Alegreya', serif;
+}
+
+
+/*------- Icons Font Awesome-------- */
+#blog .blog-info .text {
+  display: inline-block;
+  padding-left: 5px;
+  color: #747272;
+  font-family: 'Alegreya', serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#blog .blog-info .icon-2 {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: #8E7754;
+  border: rgb(155, 152, 152) solid 1px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 10px 0 10px 70px;
+}
+
+#blog .blog-info .icon-2 a {
+  color: #fff;
+  font-size: 15px;
+}
+
+#blog .blog-info .icon-2 a i{
+  line-height: 40px;
+}
+
+/* --------Map ---------*/
+#blog .blog-map {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+#blog .blog-map iframe {
+  padding: 80px 0 100px 20px;
+}
+
+
+/*  Transparent layer above the map  */
+#blog .blog-map .opicty {
+  float: left;
+  background-color: black;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  width: 580px;
+  height: 530px;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#blog .blog-map .opicty:hover {
+  display: none;
+  z-index: -1;
+  position: relative;
+}
+
+/*-----------End Section 5  (Blog)--------------*/
+
+/*-Start Section 6  (Contact)---*/
+
+#contact {
+  background-color: #403d38;
+  padding-bottom: 50px;
+}
+
+#contact .contact1,
+#contact .contact2,
+#contact .contact3,
+#contact .contact4{
+  float: left;
+  width: 30%;
+}
+
+#contact .contact2,
+#contact .contact3 {
+  width: 20%;
+}
+
+
+/* Start First Column */
+#contact .contact1 h3 {
+  color: white;
+  font-family:"Alegreya Sans";
+  font-size: 22px;
+  font-weight: 400;
+  padding: 60px 0 30px 80px;
+}
+
+#contact .contact1 p {
+  color: #888;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 0 20px 80px;
+  line-height: 1.8;
+}
+/* End First Column */
+
+/* Start Second Column */
+#contact .contact2 h3 {
+  color: white;
+  font-family:"Alegreya Sans";
+  font-size: 22px;
+  font-weight: 400;
+  padding: 60px 0 30px 0;
+}
+
+#contact .contact2 p {
+  color: #888;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 0 20px 0;
+}
+
+#contact .contact2 .border1 {
+  height: 1px;
+  width: 250px;
+  background-color: rgb(77, 75, 75);
+}
+/*----- End Second Column----- */
+
+
+/* -----Start Third Column----- */
+
+#contact .contact3 h3 {
+  color: white;
+  font-family:"Alegreya Sans";
+  font-size: 22px;
+  font-weight: 400;
+  padding: 60px 0 30px 2px;
+}
+
+#contact .contact3 p {
+  color: #888;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 0 20px 10px;
+}
+
+#contact .contact3 .border2 {
+  height: 1px;
+  width: 250px;
+  background-color: rgb(77, 75, 75);
+}
+/*--------- End Third Column--------- */
+
+
+/* -----Start Fourth Column----------- */
+
+#contact .contact4 h3 {
+  color: white;
+  font-family:"Alegreya Sans";
+  font-size: 22px;
+  font-weight: 400;
+  padding: 60px 0 30px 20px;
+}
+
+#contact .contact4 p {
+  color: #888;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 18px 0 25px 20px;
+}
+
+#contact .contact4 p span {
+  line-height: 1.8;
+}
+
+#contact .contact4 .border3 {
+  height: 1px;
+  width: 350px;
+  background-color: rgb(77, 75, 75);
+}
+
+/*----------- End Fourth Column -------*/
+
+/* ---------Picture behind the fourth column -------- */
+#contact .contact4 {
+  position: relative;
+}
+
+#contact .contact4 .picture {
+  background-image: url(images/contact-details-map.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 350px;
+  height: 330px;
+  opacity: 0.155;
+}
+
+/*-----------End Section 6  (Contact)-----------*/
+
+
+/*-----------Start Section 7  (footer)-----------*/
+.footer {
+  background-color: #353330;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer img {
+  padding: 5px 0;
+}
+
+.footer p {
+  padding: 40px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: grey;
+}
+
+.footer a i {
+  color: rgb(153, 153, 148);
+}
+
+.footer a {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(99, 98, 97);
+}
+
+/*-----------end Section 7  (footer)-----------*/
